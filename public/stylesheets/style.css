@@ -29,10 +29,15 @@
   margin-right: 5%;
 }
 
+.expand {
+  cursor: pointer;
+}
+
 .container-box {
   background-color: #004487;
   /* width: 500px; */
   padding: 1% 8%;
+  position: relative;
 }
 
 .upper-container {
@@ -284,4 +289,16 @@ table.ex2 {
 
 .button-checklist-container:hover {
   background-color: rgba(114, 129, 246, 0.862);
+}
+
+.little-box {
+  background-color: #303030;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  opacity: 0.8;
+  width: 7vw;
+  position: absolute;
+  top: 1200px;
+  left: 20px;
+  z-index: 10;
 }

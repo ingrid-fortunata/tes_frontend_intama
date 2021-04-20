@@ -1,0 +1,287 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002447;
+  padding: 2.5%;
+  margin-bottom: 2%;
+  color: white;
+  font-size: 150%;
+}
+
+.QR {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1.5%;
+}
+
+.icon-signal {
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
+}
+
+.money {
+  width: 20vw;
+}
+
+.icon-money {
+  margin-right: 5%;
+}
+
+.container-box {
+  background-color: #004487;
+  /* width: 500px; */
+  padding: 1% 8%;
+}
+
+.upper-container {
+  display: flex;
+  font-size: 150%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.upper01 {
+  font-weight: bold;
+}
+
+.upper02 {
+  border-right: 1px solid white;
+  padding-right: 10%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #039ed6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0089ba;
+}
+
+.box-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.one-box-main-red {
+  border: 1px solid white;
+  color: white;
+  font-size: 150%;
+  padding: 40% 8%;
+  border-radius: 10px;
+  background-color: #ff4d4d;
+  text-align: center;
+  /* margin: 2% 4%; */
+}
+
+.one-box-main-dark {
+  background-color: #191919;
+  border: 1px solid white;
+  color: white;
+  font-size: 150%;
+  padding: 40% 8%;
+  border-radius: 10px;
+  text-align: center;
+  /* margin: 2% 4%; */
+}
+
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+table.ex2 {
+  empty-cells: show;
+  background-color: white;
+  width: 50%;
+  height: 25vh;
+  margin-top: 2%;
+}
+
+.other-button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 2%;
+}
+
+.other-button {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.other-button-purple {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.other-button-green {
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.other-button-brown {
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.other-button-black {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.other-button-red {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2% 7%;
+  font-size: 120%;
+}
+
+.footer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #002447;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.button-x-container {
+  background-color: #001b36;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-x-container:hover {
+  background-color: rgba(135, 135, 135, 0.862);
+}
+
+.button-x {
+  width: 50%;
+  height: 50%;
+  color: white;
+  margin: 5% auto;
+}
+
+.button-save-container {
+  background-color: #ebe655;
+  border: 1px solid #3d3b01;
+  border-radius: 10px;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-save-container:hover {
+  background-color: rgba(114, 129, 246, 0.862);
+}
+
+.button-refresh-container {
+  background-color: #039ed6;
+  border: 1px solid #004159;
+  border-radius: 10px;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-refresh-container:hover {
+  background-color: rgba(114, 129, 246, 0.862);
+}
+
+.button-checklist-container {
+  background-color: #4bd87f;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-checklist-container:hover {
+  background-color: rgba(114, 129, 246, 0.862);
+}

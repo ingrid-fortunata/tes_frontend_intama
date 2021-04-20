@@ -302,3 +302,9 @@ table.ex2 {
   left: 20px;
   z-index: 10;
 }
+
+@media screen and (max-width: 1200px) {
+  .little-box {
+    top: 1000px;
+  }
+}
